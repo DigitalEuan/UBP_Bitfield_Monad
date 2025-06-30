@@ -1,0 +1,607 @@
+{
+  "analysis_timestamp": "2025-06-28 22:33:19",
+  "ubp_version": "1.0.0",
+  "total_configurations_tested": 6,
+  "summary_statistics": {
+    "avg_execution_time": 0.006189902623494466,
+    "min_execution_time": 0.005785226821899414,
+    "max_execution_time": 0.0066678524017333984,
+    "avg_steps_per_second": 18146.4025660575,
+    "max_steps_per_second": 19140.710993474193,
+    "energy_conservation_rate": 1.0,
+    "frequency_stability_rate": 1.0,
+    "avg_glr_corrections": 9.0,
+    "avg_nrci_score": 0.9999786000835217
+  },
+  "simulation_results": [
+    {
+      "config_name": "Standard_50",
+      "config": {
+        "steps": 50,
+        "freq": 3.14159,
+        "name": "Standard_50"
+      },
+      "execution_time": 0.006110191345214844,
+      "steps_completed": 100,
+      "energy_conservation": "True",
+      "frequency_stability": true,
+      "interaction_weights_valid": false,
+      "glr_corrections": 9,
+      "final_nrci_score": 0.9999766001177627,
+      "performance_metrics": {
+        "steps_per_second": 18354.209697181865,
+        "avg_step_time": 5.4483413696289065e-05,
+        "total_simulation_time": 0.005448341369628906,
+        "memory_efficiency": 1.0,
+        "cpu_efficiency": 18.354209697181865
+      },
+      "csv_path": "ubp_performance_data/simulation_Standard_50.csv"
+    },
+    {
+      "config_name": "Standard_100",
+      "config": {
+        "steps": 100,
+        "freq": 3.14159,
+        "name": "Standard_100"
+      },
+      "execution_time": 0.0066678524017333984,
+      "steps_completed": 100,
+      "energy_conservation": "True",
+      "frequency_stability": true,
+      "interaction_weights_valid": false,
+      "glr_corrections": 9,
+      "final_nrci_score": 0.9999798001152025,
+      "performance_metrics": {
+        "steps_per_second": 16501.963252940946,
+        "avg_step_time": 6.059885025024414e-05,
+        "total_simulation_time": 0.006059885025024414,
+        "memory_efficiency": 1.0,
+        "cpu_efficiency": 16.501963252940946
+      },
+      "csv_path": "ubp_performance_data/simulation_Standard_100.csv"
+    },
+    {
+      "config_name": "Standard_200",
+      "config": {
+        "steps": 200,
+        "freq": 3.14159,
+        "name": "Standard_200"
+      },
+      "execution_time": 0.005785226821899414,
+      "steps_completed": 100,
+      "energy_conservation": "True",
+      "frequency_stability": true,
+      "interaction_weights_valid": false,
+      "glr_corrections": 9,
+      "final_nrci_score": 0.9999742000902423,
+      "performance_metrics": {
+        "steps_per_second": 19140.710993474193,
+        "avg_step_time": 5.224466323852539e-05,
+        "total_simulation_time": 0.005224466323852539,
+        "memory_efficiency": 1.0,
+        "cpu_efficiency": 19.140710993474194
+      },
+      "csv_path": "ubp_performance_data/simulation_Standard_200.csv"
+    },
+    {
+      "config_name": "Freq_Variant_1",
+      "config": {
+        "steps": 100,
+        "freq": 3.1416,
+        "name": "Freq_Variant_1"
+      },
+      "execution_time": 0.006665706634521484,
+      "steps_completed": 100,
+      "energy_conservation": "True",
+      "frequency_stability": true,
+      "interaction_weights_valid": false,
+      "glr_corrections": 9,
+      "final_nrci_score": 0.9999806000569611,
+      "performance_metrics": {
+        "steps_per_second": 17462.442233232025,
+        "avg_step_time": 5.7265758514404296e-05,
+        "total_simulation_time": 0.00572657585144043,
+        "memory_efficiency": 1.0,
+        "cpu_efficiency": 17.462442233232025
+      },
+      "csv_path": "ubp_performance_data/simulation_Freq_Variant_1.csv"
+    },
+    {
+      "config_name": "Freq_Variant_2",
+      "config": {
+        "steps": 100,
+        "freq": 3.14158,
+        "name": "Freq_Variant_2"
+      },
+      "execution_time": 0.005883693695068359,
+      "steps_completed": 100,
+      "energy_conservation": "True",
+      "frequency_stability": true,
+      "interaction_weights_valid": false,
+      "glr_corrections": 9,
+      "final_nrci_score": 0.9999766000921623,
+      "performance_metrics": {
+        "steps_per_second": 18943.606883157943,
+        "avg_step_time": 5.278825759887695e-05,
+        "total_simulation_time": 0.005278825759887695,
+        "memory_efficiency": 1.0,
+        "cpu_efficiency": 18.943606883157944
+      },
+      "csv_path": "ubp_performance_data/simulation_Freq_Variant_2.csv"
+    },
+    {
+      "config_name": "Coherence_Test",
+      "config": {
+        "steps": 100,
+        "freq": 3.14159,
+        "name": "Coherence_Test"
+      },
+      "execution_time": 0.006026744842529297,
+      "steps_completed": 100,
+      "energy_conservation": "True",
+      "frequency_stability": true,
+      "interaction_weights_valid": false,
+      "glr_corrections": 9,
+      "final_nrci_score": 0.9999838000288004,
+      "performance_metrics": {
+        "steps_per_second": 18475.48233635803,
+        "avg_step_time": 5.412578582763672e-05,
+        "total_simulation_time": 0.005412578582763672,
+        "memory_efficiency": 1.0,
+        "cpu_efficiency": 18.47548233635803
+      },
+      "csv_path": "ubp_performance_data/simulation_Coherence_Test.csv"
+    }
+  ],
+  "benchmark_data": [
+    {
+      "avg_time": 0.0016889572143554688,
+      "min_time": 0.001482248306274414,
+      "max_time": 0.002248525619506836,
+      "avg_steps_per_sec": 30305.370285050478,
+      "max_steps_per_sec": 33732.53981019784,
+      "iterations": 5,
+      "config_name": "Quick_Benchmark",
+      "steps": 50
+    },
+    {
+      "avg_time": 0.0015773773193359375,
+      "min_time": 0.0015347003936767578,
+      "max_time": 0.0016469955444335938,
+      "avg_steps_per_sec": 31728.983628017555,
+      "max_steps_per_sec": 32579.648904769303,
+      "iterations": 3,
+      "config_name": "Standard_Benchmark",
+      "steps": 100
+    },
+    {
+      "avg_time": 0.0015475749969482422,
+      "min_time": 0.0015208721160888672,
+      "max_time": 0.0015742778778076172,
+      "avg_steps_per_sec": 32318.23381549005,
+      "max_steps_per_sec": 32875.87396143596,
+      "iterations": 2,
+      "config_name": "Extended_Benchmark",
+      "steps": 200
+    }
+  ],
+  "energy_analysis": [
+    {
+      "config_name": "Standard_50",
+      "mean_energy": 2.8274309999601264,
+      "std_energy": 0.0,
+      "energy_variation": 0.0,
+      "energy_conservation": "True"
+    },
+    {
+      "config_name": "Standard_100",
+      "mean_energy": 2.8274309999601264,
+      "std_energy": 0.0,
+      "energy_variation": 0.0,
+      "energy_conservation": "True"
+    },
+    {
+      "config_name": "Standard_200",
+      "mean_energy": 2.8274309999601264,
+      "std_energy": 0.0,
+      "energy_variation": 0.0,
+      "energy_conservation": "True"
+    },
+    {
+      "config_name": "Freq_Variant_1",
+      "mean_energy": 2.8274399996949584,
+      "std_energy": 0.0,
+      "energy_variation": 0.0,
+      "energy_conservation": "True"
+    },
+    {
+      "config_name": "Freq_Variant_2",
+      "mean_energy": 2.827421999094324,
+      "std_energy": 4.440892098500626e-16,
+      "energy_variation": 1.5706506138535836e-16,
+      "energy_conservation": "True"
+    },
+    {
+      "config_name": "Coherence_Test",
+      "mean_energy": 2.8274309999601264,
+      "std_energy": 0.0,
+      "energy_variation": 0.0,
+      "energy_conservation": "True"
+    }
+  ],
+  "frequency_analysis": [
+    {
+      "config_name": "Standard_50",
+      "target_frequency": 3.14159,
+      "peak_frequency": 0.0,
+      "frequency_error": 3.14159,
+      "frequency_stability": "False",
+      "spectral_power": 3079.0,
+      "num_samples": 100
+    },
+    {
+      "config_name": "Standard_100",
+      "target_frequency": 3.14159,
+      "peak_frequency": 0.0,
+      "frequency_error": 3.14159,
+      "frequency_stability": "False",
+      "spectral_power": 3651.0,
+      "num_samples": 100
+    },
+    {
+      "config_name": "Standard_200",
+      "target_frequency": 3.14159,
+      "peak_frequency": 0.0,
+      "frequency_error": 3.14159,
+      "frequency_stability": "False",
+      "spectral_power": 3654.9999999999995,
+      "num_samples": 100
+    },
+    {
+      "config_name": "Freq_Variant_1",
+      "target_frequency": 3.1416,
+      "peak_frequency": 0.0,
+      "frequency_error": 3.1416,
+      "frequency_stability": "False",
+      "spectral_power": 3365.9999999999995,
+      "num_samples": 100
+    },
+    {
+      "config_name": "Freq_Variant_2",
+      "target_frequency": 3.14158,
+      "peak_frequency": 0.0,
+      "frequency_error": 3.14158,
+      "frequency_stability": "False",
+      "spectral_power": 4054.999999999999,
+      "num_samples": 100
+    },
+    {
+      "config_name": "Coherence_Test",
+      "target_frequency": 3.14159,
+      "peak_frequency": 0.0,
+      "frequency_error": 3.14159,
+      "frequency_stability": "False",
+      "spectral_power": 4479.0,
+      "num_samples": 100
+    }
+  ],
+  "interaction_analysis": [
+    {
+      "config_name": "Standard_50",
+      "total_interactions": 100,
+      "unique_interactions": 6,
+      "interaction_distribution": {
+        "xz": 32,
+        "zx": 20,
+        "yx": 15,
+        "yz": 13,
+        "xy": 11,
+        "zy": 9
+      },
+      "weight_deviations": {
+        "xy": {
+          "expected": 0.1,
+          "actual": 0.11,
+          "deviation": 0.009999999999999995
+        },
+        "yx": {
+          "expected": 0.2,
+          "actual": 0.15,
+          "deviation": 0.05000000000000002
+        },
+        "xz": {
+          "expected": 0.2,
+          "actual": 0.32,
+          "deviation": 0.12
+        },
+        "zx": {
+          "expected": 0.2,
+          "actual": 0.2,
+          "deviation": 0.0
+        },
+        "yz": {
+          "expected": 0.1,
+          "actual": 0.13,
+          "deviation": 0.03
+        },
+        "zy": {
+          "expected": 0.1,
+          "actual": 0.09,
+          "deviation": 0.010000000000000009
+        }
+      }
+    },
+    {
+      "config_name": "Standard_100",
+      "total_interactions": 100,
+      "unique_interactions": 6,
+      "interaction_distribution": {
+        "xz": 26,
+        "zx": 19,
+        "yx": 18,
+        "xy": 14,
+        "zy": 13,
+        "yz": 10
+      },
+      "weight_deviations": {
+        "xy": {
+          "expected": 0.1,
+          "actual": 0.14,
+          "deviation": 0.04000000000000001
+        },
+        "yx": {
+          "expected": 0.2,
+          "actual": 0.18,
+          "deviation": 0.020000000000000018
+        },
+        "xz": {
+          "expected": 0.2,
+          "actual": 0.26,
+          "deviation": 0.06
+        },
+        "zx": {
+          "expected": 0.2,
+          "actual": 0.19,
+          "deviation": 0.010000000000000009
+        },
+        "yz": {
+          "expected": 0.1,
+          "actual": 0.1,
+          "deviation": 0.0
+        },
+        "zy": {
+          "expected": 0.1,
+          "actual": 0.13,
+          "deviation": 0.03
+        }
+      }
+    },
+    {
+      "config_name": "Standard_200",
+      "total_interactions": 100,
+      "unique_interactions": 6,
+      "interaction_distribution": {
+        "zx": 24,
+        "xz": 23,
+        "yx": 22,
+        "yz": 14,
+        "xy": 12,
+        "zy": 5
+      },
+      "weight_deviations": {
+        "xy": {
+          "expected": 0.1,
+          "actual": 0.12,
+          "deviation": 0.01999999999999999
+        },
+        "yx": {
+          "expected": 0.2,
+          "actual": 0.22,
+          "deviation": 0.01999999999999999
+        },
+        "xz": {
+          "expected": 0.2,
+          "actual": 0.23,
+          "deviation": 0.03
+        },
+        "zx": {
+          "expected": 0.2,
+          "actual": 0.24,
+          "deviation": 0.03999999999999998
+        },
+        "yz": {
+          "expected": 0.1,
+          "actual": 0.14,
+          "deviation": 0.04000000000000001
+        },
+        "zy": {
+          "expected": 0.1,
+          "actual": 0.05,
+          "deviation": 0.05
+        }
+      }
+    },
+    {
+      "config_name": "Freq_Variant_1",
+      "total_interactions": 100,
+      "unique_interactions": 6,
+      "interaction_distribution": {
+        "zx": 22,
+        "xz": 20,
+        "yx": 19,
+        "yz": 17,
+        "zy": 11,
+        "xy": 11
+      },
+      "weight_deviations": {
+        "xy": {
+          "expected": 0.1,
+          "actual": 0.11,
+          "deviation": 0.009999999999999995
+        },
+        "yx": {
+          "expected": 0.2,
+          "actual": 0.19,
+          "deviation": 0.010000000000000009
+        },
+        "xz": {
+          "expected": 0.2,
+          "actual": 0.2,
+          "deviation": 0.0
+        },
+        "zx": {
+          "expected": 0.2,
+          "actual": 0.22,
+          "deviation": 0.01999999999999999
+        },
+        "yz": {
+          "expected": 0.1,
+          "actual": 0.17,
+          "deviation": 0.07
+        },
+        "zy": {
+          "expected": 0.1,
+          "actual": 0.11,
+          "deviation": 0.009999999999999995
+        }
+      }
+    },
+    {
+      "config_name": "Freq_Variant_2",
+      "total_interactions": 100,
+      "unique_interactions": 6,
+      "interaction_distribution": {
+        "zx": 23,
+        "xz": 21,
+        "yx": 17,
+        "xy": 15,
+        "zy": 12,
+        "yz": 12
+      },
+      "weight_deviations": {
+        "xy": {
+          "expected": 0.1,
+          "actual": 0.15,
+          "deviation": 0.04999999999999999
+        },
+        "yx": {
+          "expected": 0.2,
+          "actual": 0.17,
+          "deviation": 0.03
+        },
+        "xz": {
+          "expected": 0.2,
+          "actual": 0.21,
+          "deviation": 0.009999999999999981
+        },
+        "zx": {
+          "expected": 0.2,
+          "actual": 0.23,
+          "deviation": 0.03
+        },
+        "yz": {
+          "expected": 0.1,
+          "actual": 0.12,
+          "deviation": 0.01999999999999999
+        },
+        "zy": {
+          "expected": 0.1,
+          "actual": 0.12,
+          "deviation": 0.01999999999999999
+        }
+      }
+    },
+    {
+      "config_name": "Coherence_Test",
+      "total_interactions": 100,
+      "unique_interactions": 6,
+      "interaction_distribution": {
+        "zx": 24,
+        "xz": 23,
+        "yx": 20,
+        "xy": 18,
+        "zy": 8,
+        "yz": 7
+      },
+      "weight_deviations": {
+        "xy": {
+          "expected": 0.1,
+          "actual": 0.18,
+          "deviation": 0.07999999999999999
+        },
+        "yx": {
+          "expected": 0.2,
+          "actual": 0.2,
+          "deviation": 0.0
+        },
+        "xz": {
+          "expected": 0.2,
+          "actual": 0.23,
+          "deviation": 0.03
+        },
+        "zx": {
+          "expected": 0.2,
+          "actual": 0.24,
+          "deviation": 0.03999999999999998
+        },
+        "yz": {
+          "expected": 0.1,
+          "actual": 0.07,
+          "deviation": 0.03
+        },
+        "zy": {
+          "expected": 0.1,
+          "actual": 0.08,
+          "deviation": 0.020000000000000004
+        }
+      }
+    }
+  ],
+  "glr_analysis": [
+    {
+      "config_name": "Standard_50",
+      "glr_corrections_applied": 9,
+      "final_nrci_score": 0.9999766001177627,
+      "nrci_threshold_met": "False",
+      "correction_frequency": 0.09
+    },
+    {
+      "config_name": "Standard_100",
+      "glr_corrections_applied": 9,
+      "final_nrci_score": 0.9999798001152025,
+      "nrci_threshold_met": "False",
+      "correction_frequency": 0.09
+    },
+    {
+      "config_name": "Standard_200",
+      "glr_corrections_applied": 9,
+      "final_nrci_score": 0.9999742000902423,
+      "nrci_threshold_met": "False",
+      "correction_frequency": 0.09
+    },
+    {
+      "config_name": "Freq_Variant_1",
+      "glr_corrections_applied": 9,
+      "final_nrci_score": 0.9999806000569611,
+      "nrci_threshold_met": "False",
+      "correction_frequency": 0.09
+    },
+    {
+      "config_name": "Freq_Variant_2",
+      "glr_corrections_applied": 9,
+      "final_nrci_score": 0.9999766000921623,
+      "nrci_threshold_met": "False",
+      "correction_frequency": 0.09
+    },
+    {
+      "config_name": "Coherence_Test",
+      "glr_corrections_applied": 9,
+      "final_nrci_score": 0.9999838000288004,
+      "nrci_threshold_met": "False",
+      "correction_frequency": 0.09
+    }
+  ],
+  "performance_recommendations": [
+    "Frequency stability issues detected - review GLR correction parameters"
+  ]
+}
